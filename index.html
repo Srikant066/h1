@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/f2d2351198.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo">
+                
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><a href="#">Web Designer</a></p>
+                <h1>Hi, I'm <span>Srikant</span><br>Khuntia from India</h1>
+            </div>
+            <div class="row">
+                <img src="avtar4.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------About------------- --->
+<div id="about">
+    <div class="scontainer">
+        <div class="srow">
+            <div class="col-1">
+                <img src="avtar5.png">
+            </div>
+            <div class="col-2">
+                <h1>About Me</h1>
+                <p>I'm an experienced web designer with a passion for creating compelling and visually appealing websites. 
+                    Proven track record of solving code problems and collaborating with design teams to deliver 
+                    top-notch web designs. Proficient in HTML, CSS, Bootstrap, Dreamweaver, Responsive Design, and Media Query. 
+                    Possess excellent communication and project management skills.
+                     Familiar with WordPress, Adobe Photoshop, JavaScript, AEM, and Git.</p>
+                <div class="tab-title">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skill</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-contents active-content" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design Web Interfaces</li>
+                        <li><span>Web Developement</span><br>Design and develope lucarative websites</li>
+                        <li><span>MS Excel</span><br>Data Analysis and Data Sorting</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022</span><br>Team Lead at BlueBerry</li>
+                        <li><span>2020</span><br>UI/UX design Training</li>
+                        <li><span>2019</span><br>Internship in Web Developement</li>
+                        <li><span>2019</span><br>Internship in Python Language</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>MBA from Banglore</li>
+                        <li><span>2019</span><br>Internship in Web Developement</li>
+                        <li><span>2018</span><br>Btech from Banglore</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------services------------------- --->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-web-awesome"></i>
+                <h2>Web Developement</h2>
+                <p>Creating and Designing web for all sort of activities</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX Designer</h2>
+                <p>design engaging UI, and create a memorable UX</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Developement</h2>
+                <p>planning, designing, creating, testing, and deploying an application to perform various business operations</p>
+            </div>
+        </div>
+     </div>
+</div>
+<!-----------------potfolio------------------- ---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h2>Social Media App</h2>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h2>Music Website</h2>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h2>Shopping Website</h2>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<!---------------------------contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0258795615</p>
+                <div class="social-platform">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www,twiter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+               <div class="cv">
+                <a href="CV.pdf" doenload class="btn">Download CV</a>
+               </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn4 btn5">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Srikant. My first website <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-content")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-content")
+    }
+    
+</script>
+</body>
+</html>
